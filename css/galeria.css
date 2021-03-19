@@ -50,8 +50,7 @@ input[type="radio"]{
     background: #383838;
     color: var(--text);
 }
-[value="todos"]:checked ~ .contenedorImagenes .imagen[data-category]{
-    
+[value="todos"]:hover ~ .contenedorImagenes .imagen[data-category]{
     display: block;
 }
 
