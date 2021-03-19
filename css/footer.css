@@ -1,0 +1,24 @@
+.contenedorFooter{
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #151515;
+    margin-top: 40px;
+}
+.contenedorFooter footer{
+    max-width: 1200px;
+    margin: auto;
+}
+.contenedorFooter footer .footerLogo{
+    text-align: center;
+}
+.contenedorFooter footer .footerLogo img{
+    width: 120px;
+    transition: all 200ms;
+}
+.contenedorFooter h4{
+    transition: all 200ms;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--textBase);
+    font-weight: 500px;
+}

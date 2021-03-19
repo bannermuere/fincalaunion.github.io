@@ -1,0 +1,67 @@
+.contenedorContacto{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    transition: all 200ms;
+    padding: 40px;
+}
+.formularioContacto{
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+}
+.contenedorContacto img {
+    object-fit: cover;
+    width: 55%;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+}
+
+.formularioContacto .textbox, textarea{
+    padding: 3px 0px;
+    height: 25px;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--text);
+}
+.formularioContacto textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+.formularioContacto h1{
+    padding: 5px 0px;
+    color: var(--text);
+}
+.formularioContacto .textbox::placeholder{
+    color: #707070;
+}
+.formularioContacto .btn{
+    border-radius: 6px;
+    transition: all 200ms;
+    font-weight: bolder;
+    margin-top: 8px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: var(--text);
+    background-color: #303030;
+}
+.formularioContacto .btn:focus{
+    outline: none;
+    background-color: #3d3d3d;
+}
+.formularioContacto .btn:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+}

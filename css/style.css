@@ -1,0 +1,29 @@
+:root{
+    --textBase: #ccf0bd;
+    --dark: #202020;
+    --text: #dcdbdb;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #131313;
+}
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--textBase);
+    border-radius: 40px;
+}
+.contenedorContenido{
+    width: 1270px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
