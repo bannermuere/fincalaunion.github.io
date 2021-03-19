@@ -63,7 +63,6 @@ input[type="radio"]{
 [value="instalaciones"]:checked ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
 [value="sembrado"]:checked ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
 [value="tostaduria"]:checked ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
-    transition: all 500ms;
     display: none;
 }
 [value="instalaciones"]:checked ~ .contenedorCategorias [for="instalaciones"],
