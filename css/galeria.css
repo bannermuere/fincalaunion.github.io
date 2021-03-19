@@ -54,9 +54,9 @@ input[type="radio"]{
     display: block;
 }
 
-[value="instalaciones"]:hover ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
-[value="sembrado"]:hover ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
-[value="tostaduria"]:hover ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
+[value="instalaciones"]:hover ~ .contenedorImagenes .imagen:not([data-category ="instalaciones"]),
+[value="sembrado"]:hover ~ .contenedorImagenes .imagen:not([data-category ="sembrado"]),
+[value="tostaduria"]:hover ~ .contenedorImagenes .imagen:not([data-category ="tostaduria"]){
     transition: all 500ms;
     display: none;
 }
