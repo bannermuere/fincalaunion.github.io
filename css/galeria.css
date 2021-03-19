@@ -50,7 +50,6 @@ input[type="radio"]{
     color: var(--text);
 }
 [value="todos"]:checked ~ .contenedorImagenes .imagen[data-category]{
-    
     display: block;
 }
 [value="instalaciones"]:checked ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
@@ -58,7 +57,6 @@ input[type="radio"]{
 [value="tostaduria"]:checked ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
     display: none;
 }
-
 [value="instalaciones"]:checked ~ .contenedorCategorias [for="instalaciones"],
 [value="sembrado"]:checked ~ .contenedorCategorias [for="sembrado"],
 [value="tostaduria"]:checked ~ .contenedorCategorias [for="tostaduria"],
