@@ -53,17 +53,15 @@ input[type="radio"]{
     display: block;
 }
 [value="instalaciones"]:checked ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
-[value="sembrado"]:checked ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
-[value="tostaduria"]:checked ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
-    display: none;
-    transition: all 500ms;
-}
 [value="instalaciones"]:hover ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
+[value="sembrado"]:checked ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
 [value="sembrado"]:hover ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
+[value="tostaduria"]:checked ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"])
 [value="tostaduria"]:hover ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
-    transition: all 500ms;
     display: none;
+    transition: all 500ms;
 }
+
 [value="instalaciones"]:checked ~ .contenedorCategorias [for="instalaciones"],
 [value="sembrado"]:checked ~ .contenedorCategorias [for="sembrado"],
 [value="tostaduria"]:checked ~ .contenedorCategorias [for="tostaduria"],
