@@ -37,6 +37,7 @@
         </div>
     </div>
 
+
     <header class="header">
         <div class="contenidoHeader">
             
@@ -44,16 +45,27 @@
                 <h1 class="animate__animated animate__bounceInDown"><b>La Unión</b> II</h1>
             </div>
 
-            <div class="headerMenu">
+            <div class="headerMenu" id="mostrarMenu">
                 <nav>
                     <ul>
+                        <button id="botonCerrar">◄</button>
                         <li class="animate__animated animate__headShake"><a class="textMenuSelected" href="#">Español</a></li>
                         <li class="animate__animated animate__headShake"><a href="#">English</a></li>
+                        <div class="espaciado"></div>
+                        <li class="animate__animated animate__headShake"><a href="#si">¿Quienes somos?</a></li>
+                        <li class="animate__animated animate__headShake beneficios"><a href="#beneficios">Beneficios</a></li>
+                        <li class="animate__animated animate__headShake"><a href="#galeria">Galeria</a></li>
+                        <li class="animate__animated animate__headShake"><a href="#contacto">Contáctanos</a></li>
                     </ul>
                 </nav>
             </div>
 
         </div>
+
+        <div id="iconoMenu">
+            <img src="img/menu.png" alt="">
+        </div>
+
     </header>
 
     <div class="contenedorPortada">
@@ -66,7 +78,7 @@
 
     <div class="contenedorContenido">  
 
-        <div class="contenedorArticulo">
+        <div class="contenedorArticulo" id="si">
 
             <article>
                 <div class="textoArticulo">
@@ -97,7 +109,7 @@
 
         </div>
 
-        <div class="contenedorSpam">
+        <div class="contenedorSpam" id="beneficios">
 
             <aside>
                 <img src="img/spam/home_coffee_icon_2.png" alt="">
@@ -127,7 +139,7 @@
         
     </div>
 
-    <div class="contenedorGaleria">
+    <div class="contenedorGaleria" id="galeria">
 
         <input type="radio" name="categorias" id="instalaciones" value="instalaciones" checked>
         <input type="radio" name="categorias" id="sembrado" value="sembrado">
@@ -163,7 +175,7 @@
 
     </div>
 
-    <div class="contenedorContacto">
+    <div class="contenedorContacto" id="contacto">
 
         <form class="formularioContacto" action="main/correos.php" method="post">
 
@@ -192,6 +204,9 @@
         </footer>
 
     </div>
+
     
+    <script src="js/menu.js"></script>
+
 </body>
 </html>

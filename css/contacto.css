@@ -33,10 +33,10 @@
     color: var(--text);
 }
 .formularioContacto textarea{
-    min-height: 100px;
-    max-height: 200px;
-    min-width: 100%;
-    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 380px;
+    max-width: 380px;
 }
 .formularioContacto h1{
     padding: 5px 0px;
@@ -50,7 +50,7 @@
     transition: all 200ms;
     font-weight: bolder;
     margin-top: 8px;
-    width: 100%;
+    width: 96%;
     height: 40px;
     outline: none;
     border: none;

@@ -9,6 +9,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #131313;

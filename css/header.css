@@ -65,4 +65,49 @@
     color: var(--textBase);
 }
 .headerMenu nav ul li a:hover{
-    font-size: 16px;}
+    font-size: 16px;
+}
+#iconoMenu img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    filter: invert(100);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 200ms;
+}
+#iconoMenu img{
+    opacity: 0.8;
+}
+#iconoMenu img:hover{
+    opacity: 0.5;
+}
+.espaciado{
+    display: none;
+    background-color: #181818;
+    top: 120px;
+    position: absolute;
+    width: 280px;
+    height: 2px;
+}
+#botonCerrar{
+    display: none;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    right: 0;
+    background: none;
+    color: var(--text);
+    position: absolute;
+    transition: all 200ms;
+}
+#botonCerrar:hover{
+    opacity: 0.4;
+}

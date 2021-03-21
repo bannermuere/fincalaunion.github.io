@@ -5,6 +5,7 @@
      .contenedorContenido{
          max-width: 1100px;
      }
+
 }
 @media screen and (max-width: 1200px){
     .contenidoHeader,
@@ -15,8 +16,15 @@
     .contenedorGaleria .contenedorImagenes{
         grid-template-columns: repeat(3, 1fr);
     }
+    .contenedorContacto .formularioContacto textarea{
+        min-width: 330px;
+        max-width: 330px;
+    }
 }
 @media screen and (max-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
     .contenedorContenido{
         width: 96%;
         flex-direction: column;
@@ -60,16 +68,70 @@
         height: 200px;
         padding-bottom: 20px;
     }
+    .contenedorContacto .formularioContacto textarea{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .mostrarLateral {
+        left: 20px;
+        width: 300px;
+        transform: translateX(0px);
+    }
+    #botonCerrar{
+        display: inline;
+    }
+    .headerMenu{
+        width: 0px;
+        height: 500px;
+        position: fixed;
+        border-radius: 15px;
+        top: 100px;
+        left: 0px;
+        background: var(--dark);
+        overflow: hidden;
+        transform: translateX(-350px);
+        box-shadow: 10px 25px 20px -25px black;
+        transition: all 300ms cubic-bezier(1,0,0,1);
+        z-index: 5;
+    }
+    .mostrarLateral{
+        top: 110px;
+        left: 25px;
+        width: 300px;
+        transform: translateX(0px);
+    }
+    .headerMenu nav ul {
+        flex-direction: column;
+    }
+
+    .headerMenu nav ul li{
+        max-width: 200px;
+        height: 50px;
+        justify-content: flex-start;
+    }
+    .headerMenu nav ul li a{
+        margin-top: 40px;
+        color: #858585;
+    }
+    #iconoMenu img{
+        display: flex;
+        right: 60px;
+    }
+    .espaciado{
+        display: inline;
+    }
 }
 @media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .mostrarLateral {
+        left: 20px;
+        width: 300px;
+        transform: translateX(0px);
+    }
     .contenidoHeader{
         max-width: 600px;
-    }
-    .headerMenu nav ul li a{
-        font-size: 12px;
-    }
-    .headerMenu nav ul li a{
-        font-size: 16px;
     }
     .contenedorSpam{
         flex-wrap: wrap;
@@ -93,4 +155,6 @@
     .contenedorContacto{
         min-width: 90%;
     }
+
+    
 }
