@@ -53,7 +53,6 @@ input[type="radio"]{
 [value="todos"]:hover ~ .contenedorImagenes .imagen[data-category]{
     display: block;
 }
-
 [value="instalaciones"]:hover ~ .contenedorImagenes .imagen:not([data-category~="instalaciones"]),
 [value="sembrado"]:hover ~ .contenedorImagenes .imagen:not([data-category~="sembrado"]),
 [value="tostaduria"]:hover ~ .contenedorImagenes .imagen:not([data-category~="tostaduria"]){
