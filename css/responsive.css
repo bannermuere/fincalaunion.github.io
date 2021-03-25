@@ -25,6 +25,9 @@
     body{
         overflow-x: hidden;
     }
+    .headerMenu nav ul li .inicioHeader{
+        display: block;
+    }
     .contenedorContenido{
         width: 96%;
         flex-direction: column;
@@ -72,6 +75,9 @@
         min-width: 100%;
         max-width: 100%;
     }
+    #botonArriba{
+        visibility: hidden;
+    }
     .mostrarLateral {
         left: 20px;
         width: 300px;
@@ -115,6 +121,7 @@
     }
     #iconoMenu img{
         display: flex;
+        position: fixed;
         right: 60px;
     }
     .espaciado{

@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/galeria.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/arriba.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
@@ -48,10 +49,11 @@
             <div class="headerMenu" id="mostrarMenu">
                 <nav>
                     <ul>
-                        <button id="botonCerrar">◄</button>
+                        <button id="botonCerrar">x</button>
                         <li class="animate__animated animate__headShake"><a class="textMenuSelected" href="#" onclick="cerrarMenu(); ">Español</a></li>
                         <li class="animate__animated animate__headShake"><a href="#">English</a></li>
-                        <div class="espaciado"></div>
+                        <div class="espaciado"></div><br>
+                        <li class="animate__animated animate__headShake"><a class="inicioHeader" href="#" onclick="cerrarMenu(); ">Inicio</a></li>
                         <li class="animate__animated animate__headShake"><a href="#si" onclick="cerrarMenu(); ">¿Quienes somos?</a></li>
                         <li class="animate__animated animate__headShake beneficios"><a href="#beneficios" onclick="cerrarMenu(); ">Beneficios</a></li>
                         <li class="animate__animated animate__headShake"><a href="#galeria" onclick="cerrarMenu(); ">Galeria</a></li>
@@ -204,6 +206,9 @@
 
     </div>
 
+    <div id="botonArriba">
+        <img class="imgBoton" src="img/botonArriba.png" alt="">
+    </div>
     
     <script src="js/menu.js"></script>
 

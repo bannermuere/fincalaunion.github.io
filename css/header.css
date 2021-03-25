@@ -67,13 +67,17 @@
 .headerMenu nav ul li a:hover{
     font-size: 16px;
 }
+.headerMenu nav ul li .inicioHeader{
+    display: none;
+}
 #iconoMenu img{
+    padding: 10px;
+    background-color: #707070;
+    border-radius: 10px;
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 0px;
-    top: 20px;
-    padding: 10px;
+    top: 33px;
     font-size: 20px;
     filter: invert(100);
     display: none;
@@ -81,12 +85,11 @@
     align-items: center;
     cursor: pointer;
     transition: all 200ms;
-}
-#iconoMenu img{
     opacity: 0.8;
 }
 #iconoMenu img:hover{
     opacity: 0.5;
+    padding: 20px;
 }
 .espaciado{
     display: none;
@@ -110,4 +113,9 @@
 }
 #botonCerrar:hover{
     opacity: 0.4;
+}
+.menuLateral img{
+    left: 0;
+    right: unset;
+    top: 30px;
 }

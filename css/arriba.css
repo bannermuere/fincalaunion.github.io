@@ -1,0 +1,23 @@
+#botonArriba{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--textBase);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+#botonArriba:hover{
+    width: 55px;
+    height: 55px;
+    bottom: 47px;
+    right: 47px;
+}
+#botonArriba .imgBoton{
+    width: 60%;
+}
