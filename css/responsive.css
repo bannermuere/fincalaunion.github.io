@@ -20,6 +20,9 @@
         min-width: 330px;
         max-width: 330px;
     }
+    .headerMenu nav ul li a{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 1000px){
     body{
@@ -89,6 +92,7 @@
         padding-bottom: 20px;
         padding-left: 0;
     }
+
 
     #botonArriba{
         visibility: hidden;
