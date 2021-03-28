@@ -89,13 +89,6 @@
         padding-bottom: 20px;
         padding-left: 0;
     }
-    .contenedorContacto .formularioContacto textarea{
-        min-width: 100%;
-        max-width: 100%;
-    }
-
-
-
 
     #botonArriba{
         visibility: hidden;
