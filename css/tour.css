@@ -1,0 +1,27 @@
+.contenedorTour{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    transition: all 200ms;
+    padding: 0px;
+    color: var(--text);
+}
+.contenedorTour img {
+    object-fit: cover;
+    width: 55%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    float: right;
+    padding-left: 30px;
+}
+.contenidoTour{
+    padding: 40px;
+}
+.contenidoTour h3{
+    margin-top: 20px;
+    color: var(--textBase);
+}
