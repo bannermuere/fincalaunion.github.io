@@ -12,7 +12,9 @@ window.onscroll = function(){
     var scroll = document.documentElement.scrollTop;
     if (scroll > 100){
         document.getElementById("iconoMenu").classList.add('iconoIzquierda');
+        document.getElementById("iconoMenu").classList.remove('iconoDerecha');
     }else{
         document.getElementById("iconoMenu").classList.remove('iconoIzquierda');
+        document.getElementById("iconoMenu").classList.add('iconoDerecha');
     }
 }

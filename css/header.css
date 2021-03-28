@@ -70,34 +70,41 @@
 .headerMenu nav ul li .inicioHeader{
     display: none;
 }
-#iconoMenu img{
-    padding: 10px;
-    background-color: #707070;
-    border-radius: 10px;
+.iconoDerecha{
     width: 40px;
     height: 40px;
-    position: absolute;
     top: 20px;
-    font-size: 20px;
-    filter: invert(100);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    opacity: 0.8;
     right: 40px;
+    background-color: #707070;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    transition: all 200ms;
+    align-items: center;
+    justify-content: center;
+}
+.iconoDerecha img{
+    width: 50%;
+    filter: invert(100%);
+}
+.iconoIzquierda{
+    width: 40px;
+    height: 90px;
+    left: -30px;
+    background-color: #707070;
+    border-radius: 10px;
+    position: fixed;
+    display: none;
+    cursor: pointer;
     transition: all 200ms;
 }
-#iconoMenu img:hover{
+.iconoIzquierda img{
+    display: none;
+}
+#iconoMenu:hover{
     opacity: 0.5;
     padding: 20px;
-}
-.header .iconoIzquierda img{
-    left: -40px;
-}
-.header .iconoIzquierda{
-    position: fixed;
-    
 }
 .espaciado{
     display: none;

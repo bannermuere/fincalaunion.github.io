@@ -119,9 +119,8 @@
         margin-top: 40px;
         color: #858585;
     }
-    #iconoMenu img{
+    #iconoMenu{
         display: flex;
-        position: absolute;
     }
     .espaciado{
         display: inline;
