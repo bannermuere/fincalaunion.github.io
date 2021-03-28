@@ -49,10 +49,10 @@
     color: var(--text);
     font-size: 30px;
 }
-.textoModal p{
+.popup .textoModal p{
     color: var(--text);
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
 }
 .botonModal{
     width: 50px;

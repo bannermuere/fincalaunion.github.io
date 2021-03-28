@@ -77,19 +77,27 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 33px;
+    top: 20px;
     font-size: 20px;
     filter: invert(100);
     display: none;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: all 200ms;
     opacity: 0.8;
+    right: 40px;
+    transition: all 200ms;
 }
 #iconoMenu img:hover{
     opacity: 0.5;
     padding: 20px;
+}
+.header .iconoIzquierda img{
+    left: -40px;
+}
+.header .iconoIzquierda{
+    position: fixed;
+    
 }
 .espaciado{
     display: none;

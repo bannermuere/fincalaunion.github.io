@@ -121,8 +121,7 @@
     }
     #iconoMenu img{
         display: flex;
-        position: fixed;
-        right: 60px;
+        position: absolute;
     }
     .espaciado{
         display: inline;
