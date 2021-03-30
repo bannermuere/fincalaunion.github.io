@@ -7,11 +7,13 @@
     opacity: 0;
     transition: all 600ms;
     z-index: 2;
+    
 }
 .contenedorModal:target{
     visibility: visible;
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 1;
+    
 }
 .contenedorModal:target .popup{
     top: 50%;
@@ -21,6 +23,7 @@
     visibility: visible;
 }
 .popup{
+    border-radius: 15px;
     width: 100%;
     max-width: 900px;
     height: 500px;
@@ -32,10 +35,12 @@
     left: -80%;
     transform: rotate(90deg) translate(-150%, 230%);
     transition: all 600ms;
+    
 }
 .imgModal{
+    border-radius: 15px;
     width: 40%;
-    background-image: url("../img/samsun.jpeg");
+    background-image: url("../img/imagenes/titulo\ facha.jpeg");
     background-size: cover;
     background-size: 240%;
     background-position: center;

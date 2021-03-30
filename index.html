@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/arriba.css">
     <link rel="stylesheet" href="css/tour.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
 </head>
@@ -38,7 +39,6 @@
             <a href="#historia" class="botonModal">X</a>
         </div>
     </div>
-
 
     <header class="header">
         <div class="contenidoHeader">
@@ -79,13 +79,42 @@
         </div>
     </div>
 
+    <div class="contenedorSlider">
+        <div class="slider">
+            <section class="contenidoSlider">
+                <div>
+                    <h2>Contactanos</h2>
+                    <a href="#contacto">Contáctanos</a>
+                </div>
+            </section>
+            <section class="contenidoSlider">
+                <div>
+                    <h2>La tierra cultivada y preparada para obtener el mejor café</h2>
+                    <a href="#beneficios">Beneficios</a>
+                </div>
+            </section>
+            <section class="contenidoSlider">
+                <div>
+                    <h2>Lindas instalaciones</h2>
+                    <a href="#galeria">Instalaciones</a>
+                </div>
+            </section>
+            <section class="contenidoSlider">
+                <div>
+                    <h2>Contactanos</h2>
+                    <a href="#contacto">Contáctanos</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
     <div class="contenedorContenido">  
 
         <div class="contenedorArticulo" id="si">
 
             <article>
                 <div class="textoArticulo">
-                <img src="img/articulo1.png" alt="">
+                <img src="img/imagenes/cafe facha.jpeg" alt="">
                     <h1>El café</h1>
                     <p>Es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto). Es una bebida altamente estimulante por su contenido de cafeína.</p>                
                 </div>
@@ -93,9 +122,9 @@
 
             <article id="historia">
                 <div class="textoArticulo">
-                    <img class="img2" src="img/articulo2.png" alt="">
+                    <img class="img2" src="img/imagenes/titulo facha.jpeg" alt="">
                     <h1>Historia</h1>
-                    <p>Tras la conquista de Guatemala por los españoles en los siglos xv y xvi se establecieron varios asentamientos humanos en el área que ocupa el moderno departamento Chimaltenango, había dos tipos de asentamientos: las reducciones y doctrinas en donde se llevaba a los indígenas conquistados para trabajar en los repartimientos o en las tierras del clero regular, respectivamente y las poblaciones de españoles y de criollos. 
+                    <p>Tras la conquista de Guatemala por los españoles en los siglos xv y xvi se establecieron varios asentamientos humanos en el área que ocupa el moderno departamento Chimaltenango, había dos tipos de asentamientos: las  
                         <a href="#modal" class="botonAbrirModal">Leer más...</a>
                     </p>
                    
@@ -104,9 +133,9 @@
 
             <article>
                 <div class="textoArticulo">
-                    <img src="img/articulo3.png" alt="">
+                    <img src="img/imagenes/standoff 2 map 2.jpeg" alt="">
                     <h1>Finca del café</h1>
-                    <p>Se cultiva bajo una sombra densa de 1.800 a 2.000 m.s.n.m., y se beneficia de un suelo volcánico, arenoso y rico en minerales y una precipitación anual de 1.800 a 2.000 mm. La cosecha dura de diciembre a marzo. Ubicada a 1 km del municipio de Acatenango, Chimaltenango, la Finca la unión cuenta con plantaciones de café catuai, caturra y bourbom. Comprometidos con las prácticas ambientales y la legislación vigente, Finca la Unión implementa constantemente innovaciones técnologicas amigables con el ecosistema.</p>
+                    <p>Se cultiva bajo una sombra densa de 1.800 a 2.000 metros sobre el nivel del mar, y se beneficia de un suelo volcánico, arenoso y rico en minerales y una precipitación anual de 1.800 a 2.000 mm. La cosecha dura de diciembre a marzo. Ubicada a 1 km del municipio de Acatenango, Chimaltenango, la Finca la unión cuenta con plantaciones de café catuai, caturra y bourbom. Comprometidos con las prácticas ambientales y la legislación vigente, Finca la Unión implementa constantemente innovaciones técnologicas amigables con el ecosistema.</p>
                 </div>
             </article>
 
@@ -115,7 +144,7 @@
         <div class="contenedorSpam" id="beneficios">
 
             <aside>
-                <img src="img/spam/home_coffee_icon_2.png" alt="">
+                <img src="img/spam/finca del cafe.jpeg" alt="">
                 <h2>Finca de café</h2>
                 <p>
                     Situado en el sur, el café de la Finca la Unión Acatenango es conocido por su fragante aroma, cuerpo balanceado y un final limpio y persistente.
@@ -123,7 +152,7 @@
             </aside>            
 
             <aside>
-                <img src="img/spam/industria_icono.png" alt="">
+                <img src="img/spam/beneficio humedo.jpeg" alt="">
                 <h2>Beneficio húmedo</h2>
                 <p>
                     El beneficio húmedo del café en finca la Unión incluye el despulpado, la fermentación, el lavado y el secado del grano. En el despulpado a las cerezas se les retira la pulpa rápidamente después de la recolección.
@@ -131,7 +160,7 @@
             </aside>
 
             <aside>
-                <img src="img/spam/tostaduria.png" alt="">
+                <img src="img/spam/tostaduria.jpeg" alt="">
                 <h2>Tostaduria</h2>
                 <p>
                     La tostaduria de café presta el servicio de maquilado en tostado y empacado del producto a los diversos caficultores de la zona.
@@ -141,6 +170,8 @@
         </div>
         
     </div>
+
+    
 
     <div class="contenedorGaleria" id="galeria">
 
@@ -159,19 +190,23 @@
         <div class="contenedorImagenes">
 
             <div class="imagen" data-category="instalaciones">
-                <img src="img/imagenes/instalacion1.jpg" alt="">
+                <img src="img/imagenes/instalaciones2.jpeg" alt="">
             </div>
 
             <div class="imagen" data-category="instalaciones">
-                <img src="img/imagenes/instalacion2.jpg" alt="">
+                <img src="img/imagenes/instalaciones3.jpeg" alt="">
             </div>
 
             <div class="imagen" data-category="instalaciones">
-                <img src="img/imagenes/instalacion3.jpg" alt="">
+                <img src="img/imagenes/instalaciones4.jpeg" alt="">
+            </div>
+
+            <div class="imagen" data-category="instalaciones">
+                <img src="img/imagenes/instalaciones6.jpeg" alt="">
             </div>
 
             <div class="imagen" data-category="tostaduria">
-                <img src="img/imagenes/instalacion4.jpg" alt="">
+                <img src="img/imagenes/tostaduria.jpeg" alt="">
             </div>
 
         </div>
@@ -192,12 +227,12 @@
 
         </form>
 
-        <img class="imgContacto" src="img/portada.jpg" alt="">
+        <img class="imgContacto" src="img/imagenes/mas standoff.jpeg" alt="">
 
     </div>
 
     <div class="contenedorTour" id="tour">
-        <img class="imgTour" src="img/samsun.jpeg">
+        <img class="imgTour" src="img/imagenes/instalaciones3.jpeg">
         <div class="contenidoTour">
             <h1>Tour</h1>
             <h3>Precios:</h3>
